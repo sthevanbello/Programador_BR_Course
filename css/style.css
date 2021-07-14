@@ -1,6 +1,63 @@
-.paragrafo-arquivo{
-color: blueviolet;
-font-weight: bold;
-font-family: Arial, Helvetica, sans-serif;
-font-size: 25px;
+body {
+    /* background:  url(../imagens/bg.jpg) center/cover no-repeat; */
+    background-color:darkgrey;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.paragrafo_arquivo {
+    color: blueviolet;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    /* background-color: bisque; */
+    /* background-image: url("../imagens/bg2.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* A imagem fica fixa */
+    
+}
+
+#titulo {
+    color: rgb(0, 100, 255)
+}
+
+.textos{
+    background-color: aliceblue;
+}
+.subDiv{
+    background-color: red;
+}
+
+#cm{
+    background-color: blue;
+    width: 1cm;
+    height: 1cm;
+}
+#mm{
+    background-color: red;
+    width: 10mm;
+    height: 10mm;
+}
+#in{
+    background-color: blueviolet;
+    width: 1in;
+    height: 1in;
+}
+#px{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+}
+#pt{
+    background-color: blueviolet;
+    width: 50pt;
+    height: 50pt;
+}
+#pc{
+    background-color: red;
+    width: 10pc;
+    height: 10pc;
 }
