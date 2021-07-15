@@ -1,15 +1,15 @@
 body {
     /* background:  url(../imagens/bg.jpg) center/cover no-repeat; */
-    background-color:darkgrey;
+    background-color: darkgrey;
     background-repeat: no-repeat;
     background-size: cover;
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .paragrafo_arquivo {
     color: blueviolet;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+
     font-size: 25px;
     /* background-color: bisque; */
     /* background-image: url("../imagens/bg2.jpg"); */
@@ -17,47 +17,118 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     /* A imagem fica fixa */
-    
+
 }
 
 #titulo {
     color: rgb(0, 100, 255)
 }
 
-.textos{
+.textos {
     background-color: aliceblue;
 }
-.subDiv{
+
+.subDiv {
     background-color: red;
 }
 
-#cm{
+#cm {
     background-color: blue;
     width: 1cm;
     height: 1cm;
 }
-#mm{
+
+#mm {
     background-color: red;
     width: 10mm;
     height: 10mm;
 }
-#in{
+
+#in {
     background-color: blueviolet;
     width: 1in;
     height: 1in;
 }
-#px{
+
+#px {
     background-color: red;
     width: 50px;
     height: 50px;
 }
-#pt{
+
+#pt {
     background-color: blueviolet;
     width: 50pt;
     height: 50pt;
 }
-#pc{
+
+#pc {
     background-color: red;
     width: 10pc;
     height: 10pc;
 }
+
+.container {
+    /* font-size: 25px; */
+    /* width: 50vw; */
+    /* width: 50vh;  */ /* vh - Referente à altura*/
+    /*width: 50vmin;*/ /*Referente à dimensão menor*/
+    width: 50vmax;
+    background: red;
+    
+}
+
+.inside {
+    /* font-size: 2em; */
+    /*Tamanho do elemento é usado como base - 20px que é o tamanho da fonte da fonte da classe container */
+    /* background-color: blue; */
+    /* width: 2em;  */
+    /*O 'em' está ligado ao tamanho da fonte do elemento*/
+    /* font-size: 2rem; */
+    width: 100%; /*Referente ao tamanho do elemento pai que no caso é o container*/
+    background:blue;
+
+}
+
+#base{
+    height: 10px;
+    background-color: red;
+}
+#div_container{
+    background-color: blue;
+    color: aliceblue;
+    /* margin: 10px; */
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.borda{
+    border: 5px;
+    /* border-width: 5px 10px 20px 30px; */
+    border-style: solid;
+    /* border-color: blueviolet;
+    border-top-color: blue;
+    border-left-color: green;
+    border-right-color: yellow;
+    border-bottom-color: red; */
+    /* border-color: blue green red yellow; */
+    border-radius: 5px;
+    /* border-radius: 50%; */
+    border: 5px solid blue;
+
+}
+
+.quadrado{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    margin: 5px;
+}
+
+.dotted{border-top-style: dotted;}
+.dashed{border-style: dashed;}
+.solid{border-style: solid;}
+.none{border-style: none;}
+.hidden{border-style: hidden;}
+
