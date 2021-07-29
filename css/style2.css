@@ -26,7 +26,7 @@ body{
     background-color: yellow;
     border: 10px solid blue;
     margin: 10px;
-    box-sizing: border-box; /*Força o conteúdo dentro da bordar, ou seja, 100px*/
+    box-sizing: border-box; /* Força o conteúdo dentro da bordar, ou seja, 100px*/
     padding: 5px;
 }
 .square2{

@@ -1,0 +1,18 @@
+p{
+    color: red;
+    text-align: justify;
+    /* text-transform: uppercase; */
+    /* text-transform: capitalize; */
+    text-indent: 35px;
+    /* text-decoration: underline; */
+    /* text-decoration: underline line-through; */
+    /* text-decoration: line-through; */
+    /* text-decoration: line-through underline overline; */
+    /* letter-spacing: 1.2px; */
+    /* line-height: 2; */
+    /* word-spacing: 5px; */
+    text-shadow: 1px 1px 2px black;
+}
+a{
+    text-decoration: none;
+}

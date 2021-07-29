@@ -1,0 +1,32 @@
+ul{
+    /* list-style-type: none; */
+    /* list-style-type: circle; */
+    /* list-style-type: square; */
+    /* list-style-image: url("../imagens/abril.png"); */
+    list-style-type: circle;
+    list-style-position: inside;
+    margin: 5px;
+    padding: 5px;
+    background-color: #59e;
+}
+
+
+ol{
+    /* list-style: none; */
+    /* list-style: upper-roman; */
+    /* list-style: lower-alpha; */
+    list-style-type: hiragana;
+    margin: 5px;
+    padding: 5px;
+    background-color: #f3e;
+    list-style-position: inside;
+}
+
+li{
+    border: 1px solid;
+    padding: 5px;
+    margin: 5px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    font-size: 20px;
+}

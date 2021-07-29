@@ -1,0 +1,15 @@
+h1{
+    /* font-family: "Comic Sans MS", Arial, sans-serif; */
+    font-family: 'Pacifico', cursive;
+
+}
+
+p{
+    /* font-family: Arial, Helvetica, sans-serif;*/ /*Padrão, backup, Caso não tenha as duas primeiras */
+    /* font-style: italic; */
+    font-size: 25px;
+    /* font-weight: 900; */
+    /* font-weight: bold; */
+    /* font-variant: small-caps; */
+    font-family: 'Indie FLower', cursive;
+}
