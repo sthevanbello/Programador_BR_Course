@@ -70,8 +70,8 @@ body {
 
 .container {
     /* font-size: 25px; */
-    /* width: 50vw; */
-    /* width: 50vh;  */ /* vh - Referente à altura*/
+    /* width: 50vw; 50% da largura da janela*/
+    /* width: 50vh;  */ /* 50% da altura - vh - Referente à altura*/
     /*width: 50vmin;*/ /*Referente à dimensão menor*/
     width: 50vmax;
     background: red;
@@ -83,9 +83,9 @@ body {
     /*Tamanho do elemento é usado como base - 20px que é o tamanho da fonte da fonte da classe container */
     /* background-color: blue; */
     /* width: 2em;  */
-    /*O 'em' está ligado ao tamanho da fonte do elemento*/
-    /* font-size: 2rem; */
-    width: 100%; /*Referente ao tamanho do elemento pai que no caso é o container*/
+    /*O 'em' está ligado ao tamanho da fonte do elemento pai*/
+    /* font-size: 2rem; Referente ao tamanho do elemento raiz (html) que no caso é o container*/
+    width: 100%; /*100% da largura do elemento pai*/
     background:blue;
 
 }
