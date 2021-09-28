@@ -6,7 +6,7 @@ body{
     width: 50px;
     height: 50px;
     background-color: blue;
-    /* margin: auto; */
+    /* margin: auto; */ /* Centraliza automaticamente o elemento */
     margin-left: auto;
 }
 
@@ -14,5 +14,8 @@ img{
     width: 150px;
     /* margin: auto; */
     margin-left: auto;
-    display: block;
+    /* Imagem é por padrão display: inline e ocupa a linha inteira*/
+    display: block; 
+    /* Não funciona se o display for inline-block */
+    /* display: inline-block;  */
 }
