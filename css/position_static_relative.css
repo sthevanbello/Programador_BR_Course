@@ -1,0 +1,35 @@
+.quadrado{
+    width: 100px;
+    height: 100px;
+    /* display:inline-block; */
+}
+
+.quadrado-red{
+    background-color: red;
+}
+
+.quadrado-blue{
+    /* position: static - Nada muda */
+    /* position:static; */
+    /* position: relative só altera a posição do elemento*/
+    position: relative;
+    /* left: 20px; */
+    right: 20px;
+    /* top: 20px; */
+    bottom: 20px;
+
+    background-color: blue;
+}
+
+.quadrado-green{
+    background-color: green;
+    position: relative;
+    left: 400px;
+    top: 100px
+}
+
+.quadro{
+    width: 500px;
+    height: 400px;
+    border: 2px solid gray;
+}
