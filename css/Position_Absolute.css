@@ -13,9 +13,11 @@
     /* position: relative; */
     /* left: 400px;*/
     /* top: 100px; */
+    /* Posicionamento absoluto em relação ao 
+    elemento pai desde que o pai não seja static. No caso, o .quadro foi modificado para position: relative*/
     position: absolute;
     /* left: 300px; */
-    right: 0;
+    right: 0px;
     bottom: 0px;
 }
 

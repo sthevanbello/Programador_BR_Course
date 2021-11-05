@@ -1,0 +1,28 @@
+body {
+    font-family: cursive;
+    font-size: 2rem;
+}
+
+.quadrado {
+    width: 100px;
+    height: 100px;
+}
+
+.quadrado-blue {
+    position: sticky;
+    background-color: blue;
+    
+}
+
+.quadrado-red {
+    background-color: red;
+}
+
+.quadrado-green {
+    background-color: green;
+}
+.quadro {
+    width: 500px;
+    height: 1000px;
+    border: 1px solid gray;
+}

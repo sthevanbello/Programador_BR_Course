@@ -1,0 +1,32 @@
+body {
+    font-family: cursive;
+    font-size: 2rem;
+}
+
+
+
+.quadrado {
+    width: 100px;
+    height: 100px;
+}
+
+.quadrado-blue {
+    background-color: blue;
+    position: fixed;
+    bottom: 500px;
+    right: 0px;
+}
+
+.quadrado-red {
+    background-color: red;
+}
+
+.quadrado-green {
+    background-color: green;
+}
+.quadro {
+    position: relative;
+    width: 500px;
+    height: 1000px;
+    border: 1px solid gray;
+}
