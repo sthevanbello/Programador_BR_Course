@@ -2,3 +2,7 @@ body{
     font-size: 20px;
 }
 
+/*Display: inline - Não permite modificar nem a altura e nem a largura desse elemento.
+Somente no display: inline-block e display: block
+*/
+

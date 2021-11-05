@@ -9,6 +9,7 @@
 }
 
 .quadrado-blue{
+    background-color: blue;
     /* position: relative; */
     /* left: 400px;*/
     /* top: 100px; */
@@ -16,7 +17,6 @@
     /* left: 300px; */
     right: 0;
     bottom: 0px;
-    background-color: blue;
 }
 
 .quadrado-green{
