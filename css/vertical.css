@@ -1,0 +1,41 @@
+body{
+    font-family: cursive;
+    font-size: 1.2rem;
+}
+.card{
+    position: relative;
+    float: left;
+    width: 400px;
+    height: 200px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.card2{
+    /* clear: left; */
+    float: left;
+    border: 2px solid black;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.c1{
+    /* background-color: gray; */
+    line-height: 200px
+}
+
+.c2{
+    /* background-color: aquamarine; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50% ,-50%);
+    
+}
+
+.c3{
+    background-color: blueviolet;
+}

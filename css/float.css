@@ -1,0 +1,29 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div{
+    border: 1px solid gray;
+    /* overflow: auto - Aumenta a div para encobrir todos os elementos dentro da própria div */
+    overflow: auto;
+}
+
+img{
+    width: 100px;
+    float: left;
+    /* float: right; */
+}
+
+p{
+    /* display: inline; */
+    /*clear não deixa elementos flutuando aos lados - esquerdo, direito ou ambos(both)*/
+    /* clear: left; */
+    /* clear: both; */
+}
+
+#i1{
+    float: left;
+}
+
+#i2{
+    float: right;
+}
