@@ -1,9 +1,26 @@
-body{
+body {
     font-family: cursive;
 }
 
-.header{
-    background-color: red;
-    width: 100px;
+.header {
+    /* padding: 30px; */
+    position: relative;
+    margin: auto;
+    width: 80%;
     height: 100px;
+    background-color: red;
+}
+
+.content {
+    position: absolute;
+    margin: auto;
+    background-color: blue;
+    width: 70%;
+    height: 70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 4vw;
 }
