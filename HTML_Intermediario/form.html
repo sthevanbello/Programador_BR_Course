@@ -62,23 +62,63 @@
 
             <fieldset>
                 <legend>Radio Button</legend>
+                <label for="">Mesmo nome nos radio button serve para só selecionar um item.</label>
                 <div>
-                    <input type="radio" id="radio1" name="radio1" checked>
+                    <input type="radio" id="radio1" name="radio1" value="morning" checked>
                     <label for="radio1">Morning</label>
                 </div>
                 <div>
-                    <input type="radio" id="radio2" name="radio1">
+                    <input type="radio" id="radio2" name="radio1" value="afternoon">
                     <label for="radio2">Afternoon</label>
                 </div>
                 <div>
-                    <input type="radio" id="radio3" name="radio1">
+                    <input type="radio" id="radio3" name="radio1" value="night">
                     <label for="radio3">Night</label>
                 </div>
             </fieldset>
 
+            
+            <select name="state" id="state">Select
+                <option value="SP">São Paulo</option>
+                <option value="PR" selected>Paraná</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                
+            </select>
             <div>
+                <input type="text" name="subject" placeholder="subject">
+            </div>
+            <div>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+            </div>
+
+            <div>
+                <input type="color" name="color">
+            </div>
+            <div>
+                <input type="date" name="date" max="2022-12-31">
+            </div>
+            <div>
+                <input type="datetime-local" name="dateTime" max="2022-12-31">
+            </div>
+
+            <div>
+                <input type="file" name="file">
+            </div>
+
+            <div>
+                <input type="number" name="number" min="1" max="10">
+            </div>
+            
+            <div>
+                <input type="reset" value="Clear">
                 <input type="submit" value="Send" placeholder="Password">
             </div>
+
+            <div>
+                <input type="tel" name="telephone">
+            </div>
+            
         </form>
     </main>
     <footer>
