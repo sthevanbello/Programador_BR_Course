@@ -2,3 +2,70 @@ body{
     font-size: 1.2rem;
     font-family: cursive;
 }
+
+.header{
+    background-color: blueviolet;
+    overflow: hidden;
+    margin: auto;
+    width: 80%;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.menu{
+    /* display: inline-block; */
+    list-style: none;
+    margin-left: auto; 
+    margin: 0;
+    padding: 0;
+    float: right;
+    
+}
+
+li{
+    /* display: inline-block; */
+    float: left;
+    color: white;
+    margin-left: 15px;
+}
+
+/* img{
+    height: 50px;
+    width: 50px;
+} */
+
+.logo{
+    /* display: inline-block; */
+
+    float: left;
+    color: white;
+}
+
+@media screen and (max-width: 500px){
+    .logo{
+        float: none;
+        text-align: center;
+        padding: 10px;
+        /* background: red; */
+    }
+
+    .menu{
+        margin-top: 20px;
+        float: none;
+        text-align: center;
+        
+    }
+
+    li{
+        float: none;
+        margin: 0;
+        margin-bottom: 5px;
+        /* background: red; */
+        padding: 10px;
+        text-align: center;
+    }
+}
+
+.titulo{
+    margin: auto;
+}
