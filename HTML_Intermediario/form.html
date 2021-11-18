@@ -1,20 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/form.css">
+
     <title>Formulário</title>
 </head>
+
 <body>
     <header>
         <h1>Formulário</h1>
     </header>
     <main>
-        
+        <form method="GET" action="/cadastro">
+
+            <div>
+                <div>
+                    <label for="name">First name</label>
+                    <input type="text" id="name" name="txtName" placeholder="Insert your first name">
+                </div>
+                <div>
+                    <label for="lastName">Last name</label>
+                    <input type="text" id="lastName" name="txtLastName" placeholder="Insert your last name">
+                </div>
+                <div>
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="txtEmail" placeholder="email@provider">
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" name="txtPassword" id="password">
+                </div>
+            </div>
+
+            <fieldset>
+                <legend>Checkbox</legend>
+                <div>
+                    <input type="checkbox" id="checkCsharp" name="checkCsharp">
+                    <label for="checkCsharp">C#</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="checkSQL" name="checkSQL">
+                    <label for="checkSQL">SQL</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="checkCSS" name="checkCSS">
+                    <label for="check">CSS</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="checkHTML" name="checkHTML">
+                    <label for="check">HTML</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="checkJavascript" name="checkJavascript">
+                    <label for="check">Javascript</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Radio Button</legend>
+                <div>
+                    <input type="radio" id="radio1" name="radio1" checked>
+                    <label for="radio1">Morning</label>
+                </div>
+                <div>
+                    <input type="radio" id="radio2" name="radio1">
+                    <label for="radio2">Afternoon</label>
+                </div>
+                <div>
+                    <input type="radio" id="radio3" name="radio1">
+                    <label for="radio3">Night</label>
+                </div>
+            </fieldset>
+
+            <div>
+                <input type="submit" value="Send" placeholder="Password">
+            </div>
+        </form>
     </main>
     <footer>
-        
+
     </footer>
 </body>
+
 </html>

@@ -1,0 +1,9 @@
+body{
+    font-size: 1.2rem;
+    font-family: cursive;
+}
+
+input{
+    margin: 10px;
+    display: inline-block;
+}
