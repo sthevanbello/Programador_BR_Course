@@ -1,30 +1,80 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
 }
 
-.container{
+.container {
     max-width: 1000px;
     margin: auto;
 }
 
-header{
+header {
     background-color: cornflowerblue;
     text-align: center;
     color: white;
     padding: 10px;
 }
 
-.title{
+.title {
     font-size: 26px;
 }
 
-section{
-    color: aliceblue;
+section {
+    padding: 20PX;
+    background-image: url("../images/people.jpg");
+    background-size: cover;
+    overflow: hidden;
 }
 
+
+
+.form-container {
+    max-width: 230px;
+    background-color: #ffffffBB;
+    padding: 20px;
+    float: right;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.margin-bottom {
+    margin-bottom: 15px;
+}
+
+input,
+select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border-style: none;
+    margin-bottom: 10px;
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('../images/arrow.jpg');
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+    /* background-position-x: calc(100% - 10px);
+    background-position-y: center; */
+}
+
+input[type="submit"] {
+    color: white;
+    background-color: cornflowerblue;
+    font-weight: bold;
+
+}
+
+input[type="submit"]:hover {
+    background-color: #2086b3;
+}
