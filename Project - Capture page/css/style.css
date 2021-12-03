@@ -38,6 +38,7 @@ section {
     background-color: #ffffffBB;
     padding: 20px;
     float: right;
+    border-radius: 15px;
 }
 
 h2 {
@@ -54,6 +55,7 @@ select {
     box-sizing: border-box;
     padding: 10px;
     border-style: none;
+    border-radius: 10px;
     margin-bottom: 10px;
 }
 
@@ -77,4 +79,38 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: #2086b3;
+}
+
+footer{
+    background-color: #202121;
+    padding: 40px;
+    text-align: center;
+}
+
+.picture{
+    width: 160px;
+}
+
+.description{
+    display: inline-block;
+    color: white;
+    max-width: 40%;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.description p, .description h3{
+    margin-bottom: 20px;
+}
+
+.description h3{
+    font-size: 24px;
+}
+
+@media screen and (max-width: 500px){
+    .form-container{
+        float: none;
+        margin: auto;
+        min-width: 300px;
+    }
 }
