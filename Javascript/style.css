@@ -1,0 +1,14 @@
+#p1{
+    font-size: 25px;
+    color: blue;
+}
+
+.paragrafo{
+    font-size: 15px;
+    font-family: cursive;
+    color: red;
+}
+
+span{
+    display: none;
+}
