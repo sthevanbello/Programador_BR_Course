@@ -42,3 +42,10 @@ console.log(aluno);
 var data = new Date();
 console.log(data);
 
+function changeH1(input){
+    let h1 = document.getElementsByTagName("h1")[0];
+    // let input = document.getElementById("texto");
+    h1.innerText = input.value;
+    console.log(h1);
+}
+

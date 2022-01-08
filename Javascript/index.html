@@ -12,7 +12,9 @@
 <body>
     <main>
         <h1>Manipular DOM</h1>
-        <p onclick="console.log('Clicou no parágrafo')" class="paragrafo" id="p1">Clique aqui</p>
+        <p onclick="console.log(this.style.color = 'red')" class="paragrafo" id="p1">Clique aqui para mudar a minha cor para vermelho</p>
+        
+        <input id="texto" type="text" onchange="changeH1(this)">
 
     </main>
     <script src="./script.js"></script>
