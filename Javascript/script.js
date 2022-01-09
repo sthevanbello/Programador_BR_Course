@@ -49,3 +49,15 @@ function changeH1(input){
     console.log(h1);
 }
 
+function hideH1(){
+    let h1 = document.getElementsByTagName("h1")[0];
+    h1.style.display = "none";
+}
+
+function onOver(element){
+    element.style.backgroundColor =  "red";
+}
+
+function onOut(element){
+    element.style.backgroundColor = "blue"
+}
