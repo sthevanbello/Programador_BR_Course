@@ -59,5 +59,22 @@ function onOver(element){
 }
 
 function onOut(element){
-    element.style.backgroundColor = "blue"
+    element.style.backgroundColor = "blue";
+}
+
+let t = document.getElementById("title");
+// t.innerHTML = "teste"
+// t.onclick = changeText;
+t.addEventListener("click", changeText);
+t.addEventListener("mouseover", changeText);
+t.addEventListener("mouseout", mouseOut);
+
+function changeText(){
+    // let h1 = document.getElementById("title");
+    // h1.innerText = "Text changed by function changeText"
+    this.innerText = "Text changed by function changeText"
+}
+
+function mouseOut(){
+    this.innerText = "Mouse out"
 }
