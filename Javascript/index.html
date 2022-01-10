@@ -12,14 +12,19 @@
 <body onload="console.log('Página completamente carregada')">
     <main>
         <h1 id="title">Manipular DOM</h1>
-        <p onclick="console.log(this.style.color = 'red')" class="paragrafo" id="p1">Clique aqui para mudar a minha cor para vermelho</p>
-        
+        <p onclick="console.log(this.style.color = 'red')" class="paragrafo" id="p1">Clique aqui para mudar a minha cor
+            para vermelho</p>
+
         <input id="texto" type="text" onchange="changeH1(this)">
         <input id="texto" type="text" oninput="changeH1(this)">
         <img src="../imagens/corinthians.png" alt="corinthians symbol">
         <img src="https://logodetimes.com/times/corinthians/logo-corinthians-4096.png" alt="corinthians">
-        <div onmouseover="onOver(this)" onmouseout="onOut(this)" onclick="hideH1()">Click</div>
 
+        <div id="button" onmouseover="onOver(this)" onmouseout="onOut(this)" onclick="hideH1()">Click</div>
+
+        <div onclick="function1(this)">Click here to execute function without AddeventiListener</div>
+
+        <div id="div2">Click here to execute the function with AddEventListener</div>
     </main>
     <script src="./script.js"></script>
 </body>

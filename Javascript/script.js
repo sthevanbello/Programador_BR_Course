@@ -72,9 +72,27 @@ t.addEventListener("mouseout", mouseOut);
 function changeText(){
     // let h1 = document.getElementById("title");
     // h1.innerText = "Text changed by function changeText"
-    this.innerText = "Text changed by function changeText"
+    this.innerText = "Text changed by function changeText";
 }
 
 function mouseOut(){
-    this.innerText = "Mouse out"
+    this.innerText = "Mouse out";
+}
+
+function function1(e){
+    console.log("First div without AddEventListener");
+    console.log(e);
+    console.log(this);
+}
+
+function function2(e){
+    console.log("function with AddEventListener")
+    console.log(e);
+    // console.log(this);
+    console.log(e.target);
+}
+
+window.onload = function(){
+    let div2 = document.getElementById("div2");
+    div2.addEventListener("click", function2);
 }
