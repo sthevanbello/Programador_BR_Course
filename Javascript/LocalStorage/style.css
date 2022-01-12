@@ -1,0 +1,11 @@
+body{
+    font-size: 18px;
+    font-family: cursive;
+}
+
+#field{
+    display:block;
+    width: 150px;
+    height: auto;
+}
+
