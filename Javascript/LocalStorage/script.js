@@ -11,8 +11,6 @@ onload = function () {
     let save = document.getElementById("btn-save");
     save.addEventListener("click", saveList);
 
-    // let list = localStorage.getItem("item");
-    // console.log(JSON.stringify(list));
     let list = localStorage.getItem("item");
     console.log(list);
 
@@ -20,16 +18,6 @@ onload = function () {
     load.addEventListener("click", loadList);
 
 };
-
-function atualizar(element) {
-
-    // let value = element.value;
-    // // let campo = document.getElementById("campo");
-    // // campo.innerHTML = value;
-
-    // localStorage.setItem("name", value);
-};
-
 
 function clear() {
     getList().innerHTML = "";
@@ -49,7 +37,7 @@ function insertTask() {
     };
     console.log(obj);
 
-    fillList(getList(), text);
+    fillList(getList(), obj.task);
     saveList();
 }
 
