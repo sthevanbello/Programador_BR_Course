@@ -1,11 +1,19 @@
 body{
-    font-size: 18px;
+    font-size: 20px;
     font-family: cursive;
 }
 
 #field{
     display:block;
-    width: 150px;
+    width: 350px;
     height: auto;
 }
+
+input{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
 
