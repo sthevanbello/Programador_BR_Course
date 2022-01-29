@@ -48,7 +48,7 @@ function fillList(list, value) {
 }
 
 function createLi(value){
-    let li = document.createElement('li')
+    let li = document.createElement('li');
     li.innerHTML = value;
     return li
     

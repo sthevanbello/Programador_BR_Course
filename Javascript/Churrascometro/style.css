@@ -1,7 +1,4 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
+
 
 body{
     font-family: cursive;
@@ -17,7 +14,7 @@ h1{
     margin-top: 25px;
     background-color: cornflowerblue;
     width: 250px;
-    height: 200px;
+    height: auto;
     padding: 20px;
 }
 
