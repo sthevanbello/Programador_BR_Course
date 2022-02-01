@@ -35,18 +35,17 @@ function calculateList() {
 }
 
 function calculateMeet(time, adults, children) {
-    let meat = 0;
+    let quantity = 0;
     if (time <= 6) {
-        meat = 400;
+        quantity = 400;
     } else {
-        meat = 600;
+        quantity = 600;
     }
-    let quantityMeet = meat * adults + (meat / 2 * children);
-    return quantityMeet;
+    return quantity * adults + (quantity / 2 * children);
+
 }
 
 function calculateBeer(time, adults) {
-    let beer = 0;
     let quantity = 0;
     if (time <= 6) {
         quantity = 1200;
@@ -57,14 +56,13 @@ function calculateBeer(time, adults) {
 }
 
 function calculateDrink(time, adults, children) {
-    let drink = 0;
-    let quantity = 1000;
+    let quantity = 0;
     if (time <= 6) {
         quantity = 1000;
     }else{
         quantity = 1500;
     }
-    return (adults * quantity) + (children / 2 * quantity);
+    return quantity * adults + (quantity / 2 * children);
 }
 
 function createUl(meat, beer, drink) {
@@ -99,13 +97,16 @@ function createLi(type, item){
 }
 
 function formatMeat(meat){
-    return "Meat = " + (meat / 1000) + " Kg";
+    meat = meat / 1000;
+    return `Meat = ${meat}Kg`;
 }
 
 function formatBeer(beer){
-    return "Beer = " + (beer / 1000) + " liters"
+    beer = beer / 355;
+    return `Beer = ${Math.ceil(beer)} "beer cans"`;
 }
 
 function formatDrink(drink){
-    return "Drink = "+ (drink / 1000) +" liters";
+    drink = drink / 2000;
+    return `Drink = ${Math.ceil(drink)} Bottles`;
 }
