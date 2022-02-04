@@ -1,23 +1,26 @@
-.container{
+.container {
     position: relative;
     width: 360px;
-    height: 360px;
+    height: 260px;
+
 }
 
-.video{
+
+.video {
     width: 100%;
     height: 100%;
 }
 
-.controller{
+.controller {
     position: absolute;
     top: 0px;
     width: 100%;
     height: 100%;
     text-align: center;
+    
 }
 
-.btn{
+.btn {
     position: relative;
     width: 50px;
     top: 100%;
