@@ -1,0 +1,47 @@
+p::first-line{
+    color: red;
+}
+
+p::first-letter{
+    color: purple;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+li{
+    list-style: none;
+}
+
+/* li::before{
+    content: "A - ";
+    color: blue;
+    font-size: 2rem;
+} */
+
+li::before{
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url("../imagens/corinthians.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+li::after{
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url("../imagens/corinthians.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+p::selection{
+    background-color: yellow;
+    color: red;
+    
+}
