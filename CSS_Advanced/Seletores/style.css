@@ -1,0 +1,27 @@
+*{
+    font-family: cursive;
+    /* margin: 0; */
+}
+
+.p2, div{
+    background-color: aqua;
+}
+
+header p{
+    background-color: purple;
+}
+
+/* p que é filho de um id head */
+#head > p{
+    background-color: red;
+}
+
+/* p logo em seguida de um id head */
+#head + p {
+    background-color: darkgoldenrod;
+}
+
+/* Todos os parágrafos que sucedam um header */
+header ~ p{
+    background-color: green;
+}
