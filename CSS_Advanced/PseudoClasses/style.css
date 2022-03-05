@@ -1,0 +1,48 @@
+input:focus{
+    color: red;
+}
+
+/* li:first-child{
+    color: blue;
+    font-weight: bold;
+} */
+
+/* li:first-of-type{
+    color: red;
+    font-weight: bold;
+} */
+
+li:nth-child(2){
+    color: blue;
+    font-weight: bold;
+}
+
+li:nth-of-type(4){
+    color: blue;
+    font-weight: bold;
+}
+
+/* li:last-child{
+    color: blue;
+    font-weight: bold;
+} */
+
+li:last-of-type{
+    color: red;
+    font-weight: bold;
+}
+
+/* 2n = valores múltiplos de 2 */
+/* li:nth-child(2n){
+    color: purple;
+    font-weight: bold;
+} */
+
+li:nth-child(even){
+    color: blue;
+    font-weight: bold;
+}
+li:nth-child(odd){
+    color: red;
+    font-weight: bold;
+}
