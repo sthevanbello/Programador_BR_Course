@@ -25,3 +25,35 @@ header p{
 header ~ p{
     background-color: green;
 }
+
+[width]{
+    background-color: red;
+}
+
+[width="500"]{
+    background-color: blue;
+}
+
+[title="titulo 5"]{
+    font-size: 25px;
+}
+
+[title="titulo 1"]{
+    font-size: 50px;
+}
+
+[title~="titulo"]{
+    background-color: blueviolet;
+}
+
+[title^="ti"]{
+    color: red;
+}
+
+[title$="1"]{
+    color: purple;
+}
+
+[title*="i"]{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
