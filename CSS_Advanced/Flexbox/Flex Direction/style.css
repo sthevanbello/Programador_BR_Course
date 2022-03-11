@@ -1,0 +1,30 @@
+.container{
+    background-color: darkslategray;
+    height: 400px;
+    width: 400px;
+    color: azure;
+    font-size: 25px;
+    display:flex;
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row; */
+    flex-direction: row-reverse;
+}
+
+.r1{
+    background-color: black;
+}
+
+.r2{
+    background-color: red;
+}
+
+.r3{
+    background-color: yellow;
+    color: black;
+}
+
+.rect{
+    width: 50px;
+    height: 50px;
+}
