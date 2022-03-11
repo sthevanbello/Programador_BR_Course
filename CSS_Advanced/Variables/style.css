@@ -1,0 +1,29 @@
+:root{
+    /* Variables */
+    --var-color: blue;
+    --square-size: 200px;
+}
+
+
+
+.paragraph2{
+    color: var(--var-color);
+    font-size: 25px;
+}
+
+.paragraph3{
+    color: var(--var-color);
+    font-size: 15px;
+}
+
+.square1{
+    width: var(--square-size);
+    height: var(--square-size);
+    background-color: black
+}
+
+.square2{
+    width: var(--square-size);
+    height: var(--square-size);
+    background-color: yellow;
+}
