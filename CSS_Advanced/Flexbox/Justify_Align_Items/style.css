@@ -1,48 +1,62 @@
-
-*{
+* {
     margin: 0;
     /* padding: 0; */
 }
-.container{
+
+.container {
     background-color: darkslategray;
     height: 700px;
     /* width: 400px; */
     color: azure;
     font-size: 25px;
-    display:flex;
+    display: flex;
 
-    flex-wrap: wrap-reverse;
+    /* flex-wrap: wrap; */
     /* flex-direction: column; */
     /* flex-direction: column-reverse; */
-    flex-direction: row;
+    /* flex-direction: row; */
     /* justify-content: flex-start; */
     /* justify-content: flex-end; */
     /* justify-content: center; */
     /* justify-content: space-between; */
     /* justify-content: space-around; */
-    
+
     /* Mantém espaços iguais entre os elementos. */
     /* justify-content: space-evenly; */
 
+    /* align-items: flex-end;  */
     /* align-items: center; */
-    align-items: flex-end; 
     /* align-items: flex-start;  */
+    /* align-content: center; */
+    /* align-content: flex-start; */
+    /* align-content: space-around; */
+
 }
 
-.r1{
+.r1 {
+    /* order: 3; */
     background-color: black;
+    /* flex-grow: 1; */
 }
 
-.r2{
+
+.r2 {
+    /* order: 2; */
     background-color: red;
+    /* flex-grow: 2; */
+    align-self: center;
 }
 
-.r3{
+
+.r3 {
+    /* order: 1; */
     background-color: yellow;
     color: black;
+    /* flex-shrink: 0; */
+    /* flex-grow: 3; */
 }
 
-.rect{
+.rect {
     width: 300px;
     height: 300px;
 }
