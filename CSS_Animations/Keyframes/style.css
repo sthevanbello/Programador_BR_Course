@@ -1,0 +1,18 @@
+@keyframes changeColor {
+    from {
+        background-color: black;
+    }
+
+    to {
+        background-color: yellow;
+    }
+}
+
+
+.box {
+    width: 250px;
+    height: 250px;
+    border-style: solid;
+    animation-name: changeColor;
+    animation-duration: 5000ms;
+}
