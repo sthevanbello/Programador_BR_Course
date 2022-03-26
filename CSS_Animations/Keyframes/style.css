@@ -46,8 +46,8 @@
     height: 150px;
     border-style: solid;
     /* animation-name: changeColor; */
-    animation-name: move;
-    animation-duration: 6000ms;
+    /* animation-name: move; */
+    /* animation-duration: 6000ms; */
     /* animation-delay: 1000ms; */
     /* animation-delay: -2500ms; */
     /* animation-iteration-count: infinite; */
@@ -57,7 +57,9 @@
     /* animation-iteration-count: 3; */
     /* animation-fill-mode: forwards; */
     /* animation-fill-mode: backwards; */
-    animation-fill-mode: forwards;
+    /* animation-fill-mode: forwards; */
+
+    animation: move 6s linear 0s 1 normal forwards;
 }
 
 .div1{
