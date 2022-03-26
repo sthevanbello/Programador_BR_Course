@@ -1,10 +1,17 @@
 @keyframes changeColor {
-    from {
+    0% {
         background-color: black;
+        width: 250px;
     }
-
-    to {
+    
+    50% {
+        background-color: red;
+        width: 500px;
+    }
+    
+    100% {
         background-color: yellow;
+        width: 250px;
     }
 }
 
@@ -15,4 +22,6 @@
     border-style: solid;
     animation-name: changeColor;
     animation-duration: 5000ms;
+    /* animation-delay: 1000ms; */
+    animation-delay: -2500ms;
 }
