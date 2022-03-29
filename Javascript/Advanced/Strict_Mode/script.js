@@ -1,14 +1,36 @@
 // Use strict force declaration using 'var', 'let', 'const'...
 
-"use strict"
+// "use strict"
 
 
-function print() {
-    x = 7;
+// function print() {
+//     x = 7;
 
-    console.log(x);
+//     console.log(x);
+// }
+
+// print();
+
+// console.log(window);
+
+function speakGeneric() {
+    console.log(this.sound);
 }
 
-print()
+let dog = {
+    sound: "au au",
+    speak: speakGeneric
+}
 
-console.log(window)
+let cat = {
+    sound: "miau",
+    speak: speakGeneric
+}
+
+dog.speak();
+cat.speak();
+
+// let bindedFunction = speakGeneric.bind(dog);
+let bindedFunction = speakGeneric.bind(cat);
+
+bindedFunction();
