@@ -59,13 +59,26 @@ body {
     background-size: 220px 220px;
 }
 
-.button{
+.button {
     display: grid;
     justify-items: center;
     margin: 20px;
 }
 
-#btn{
+#btn {
     width: 200px;
     height: 70px;
+    background-color: cornflowerblue;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bold;
+    border: none;
+}
+
+#btn:hover{
+    background-color: red;
+}
+
+#btn:active{
+    transform: scale(0.9);
 }
