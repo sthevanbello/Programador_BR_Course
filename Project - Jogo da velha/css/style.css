@@ -1,4 +1,14 @@
-.container {
+body {
+    background-color: azure;
+}
+
+.title {
+    font-family: cursive;
+    text-align: center;
+}
+
+.table {
+    /* margin: 10px; */
     display: grid;
     grid-gap: 10px;
     grid-template: auto auto auto / auto auto auto;
@@ -10,4 +20,52 @@
     width: 200px;
     height: 200px;
     background-color: cornflowerblue;
+}
+
+.o {
+    position: relative;
+}
+
+.o:after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: url("../assets/circulo.png") no-repeat 0 0;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    content: "";
+    background-size: 200px 200px;
+    content: "";
+}
+
+.x {
+    position: relative;
+}
+
+.x:after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: url("../assets/xis.png") no-repeat 0 0;
+    display: inline-block;
+    height: 220px;
+    width: 220px;
+    content: "";
+    background-size: 220px 220px;
+}
+
+.button{
+    display: grid;
+    justify-items: center;
+    margin: 20px;
+}
+
+#btn{
+    width: 200px;
+    height: 70px;
 }
